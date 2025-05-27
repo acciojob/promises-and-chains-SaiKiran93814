@@ -6,10 +6,8 @@
       const age = document.getElementById("age").value.trim();
 
       if (name === "" || age === "") {
-  alert("Please enter valid details"); // No period
-  return;
-}
-
+        alert("Please enter valid details");
+        return;
       }
 
       new Promise((resolve, reject) => {
